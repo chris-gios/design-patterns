@@ -16,7 +16,7 @@ public class ConexionDB {
 
 	/** 2-Metodo que retorna un objeto de la misma clase */
 	/** 3-Es estatico */
-	public synchronized static ConexionDB obtenerConexion() {
+	public static ConexionDB obtenerConexion() {
 		
 		if(conexion == null) { // si no se ha creado
 			conexion = new ConexionDB();
