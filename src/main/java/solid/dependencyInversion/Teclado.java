@@ -1,4 +1,4 @@
-package solid.dependency_inversion;
+package solid.dependencyInversion;
 
 public class Teclado implements ITeclado {
 

@@ -1,4 +1,4 @@
-package solid.liskov_substitution;
+package solid.liskovSubstitution;
 
 public class Animal {
 

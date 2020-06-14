@@ -1,4 +1,4 @@
-package solid.open_close;
+package solid.openClose;
 
 /** Puede ser interface o clase abstracta */
 public interface IFigura {

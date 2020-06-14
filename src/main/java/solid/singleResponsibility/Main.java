@@ -1,4 +1,4 @@
-package solid.single_responsibility;
+package solid.singleResponsibility;
 
 public class Main {
     /** Rectangulo: Que se debe de mostrar

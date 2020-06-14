@@ -1,4 +1,4 @@
-package solid.segregacion_interface;
+package solid.segregacionInterface;
 
 public interface IFelinoSalvaje extends IFelino {
 	

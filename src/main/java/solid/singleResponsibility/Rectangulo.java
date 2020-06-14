@@ -1,4 +1,4 @@
-package solid.single_responsibility;
+package solid.singleResponsibility;
 
 import lombok.Data;
 

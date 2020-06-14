@@ -1,21 +1,23 @@
-package solid.open_close;
+package solid.openClose;
 
 import lombok.Data;
 
+
 @Data
-public class Triangulo implements IFigura {
+public class Rectangulo implements IFigura {
 
     private float base;
     private float altura;
 
-    public Triangulo(float base, float altura) {
+    public Rectangulo(float base, float altura) {
         this.setBase(base);
         this.setAltura(altura);
     }
 
     /** metodo que implementa por IFigura */
     public float area() {
-        return (getBase() * getAltura() )/ 2;
+        return this.getBase() * this.getAltura();
     }
 
 }
+
