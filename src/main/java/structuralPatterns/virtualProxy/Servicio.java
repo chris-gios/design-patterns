@@ -1,6 +1,6 @@
-package structuralPatterns.proxy;
+package structuralPatterns.virtualProxy;
 
-public class Servicio implements IServicio {
+public class Servicio implements IServicio{
 	
 	public void leer() {
 		System.out.println("Leer!");

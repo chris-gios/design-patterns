@@ -1,18 +1,20 @@
-package structuralPatterns.proxy;
+package structuralPatterns.virtualProxy;
 
 public class Main {
 
 	public static void main(String[] args) {
-
+		
 		Usuario usuario = new Usuario(5);
-		IServicio servicio = new ProxyServicio(new Servicio(), usuario);
+		IServicio servicio = new ProxyServicio(usuario);
+		
+		servicio.leer(); //<---
 		
 		servicio.escribir();
-		servicio.leer(); //<---
+		
 		servicio.actualizar();
 		servicio.eliminar();
+		
 
-		// Admin
 		
 	}
 
