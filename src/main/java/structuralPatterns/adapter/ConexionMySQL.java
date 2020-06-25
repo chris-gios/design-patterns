@@ -3,7 +3,7 @@ package structuralPatterns.adapter;
 public class ConexionMySQL implements IConexionSQL {
 
 	public void conexion() {
-		System.out.println("Conexión con MYSQL");
+		System.out.println("Conexion con MYSQL");
 	}
 	
 	public String runQuery() {
