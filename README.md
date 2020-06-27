@@ -1,7 +1,10 @@
 # Java Design Patterns
-Catalog of popular object-oriented design patterns in Java
+Catalogo de los patrones de diseño orientados a objetos en Java
 
 ### Creational
+* **Creacional de la Clase:** Los patrones creacionales de Clases usan la herencia como un mecanismo para lograr la instanciación de la Clase. Por ejemplo el método Factoría.
+* **Creacional del objeto:** Los patrones creacionales de objetos son más escalables y dinámicos comparados de los patrones creacionales de Clases. Por ejemplo la Factoría abstracta y el patrón Singleton.
+
 - [x] **Abstract Factory:** Provee una interfaz para la creación de familias de objetos sin especificar una clase en concreta.
 - [x] **Builder:** Separa la construcción de objetos complejos.
 - [x] **Factory Method:** Define una interfaz para la creación de un objeto, pero deja que la subclase decida que clase instanciar.
@@ -11,6 +14,9 @@ Catalog of popular object-oriented design patterns in Java
 - [x] **Singleton Concurrent:**
 
 ### Structural
+* **Estructural de la Clase:** Los patrones estructurales de Clases usan la herencia para proporcionar interfaces más útiles combinando la funcionalidad de múltiples Clases. Por ejemplo el patrón Adaptador (Clase).
+* **Estructural de Objetos:** Los patrones estructurales de objetos crean objetos complejos agregando objetos individuales para construir grandes estructuras. La composición de l patrón estructural del objeto puede ser cambiado en tiempo de ejecución, el cual nos da flexibilidad adicional sobre los patrones estructurales de Clases. Por ejemplo el Adaptador (Objeto), Facade, Bridge, Composite.
+
 - [x] **Adapter:** Convierte la interfaz de una clase en otro interfaz que el cliente espera.
 - [x] **Composite:** Composite sirve para construir objetos complejos a partir de otros más simples y similares entre sí, gracias a la composición recursiva y a una estructura en forma de árbol.
 - [x] **Decorator:** Agrega responsabilidades adicionales a un objeto de forma dinámica. 
@@ -20,6 +26,9 @@ Catalog of popular object-oriented design patterns in Java
 - [x] **Virtual Proxy:** 
 
 ### Behavioral
+* **Comportamiento de Clase:** Los patrones de comportamiento de Clases usan la herencia para distribuir el comportamiento entre Clases. Por ejemplo Interpreter.
+* **Comportamiento de Objeto:** Los patrones de comportamiento de objetos nos permite analizar los patrones de comunicación entre objetos interconectados, como objetos incluidos en un objeto complejo. Ejemplo Iterator, Observer, Visitor.
+
 - [x] **Chain of Responsibility:** Evita acoplar el emisor de una petición a su receptor dando a más de un objeto la posibilidad de responder a una petición. Para ello, se encadenan los receptores y pasa la petición a través de la cadena hasta que es procesada por algún objeto.
 - [x] **Command:** Permite solicitar una operación a un objeto sin conocer realmente el contenido de esta operación, ni el receptor real de la misma. Para ello se encapsula la petición como un objeto, con lo que además facilita la parametrización de los métodos.
 - [x] **Interpreter:** Dado un idioma, define una representación para su gramática junto con un intérprete que use la representación para interpretar oraciones en el lenguaje.
