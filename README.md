@@ -2,8 +2,8 @@
 Catalogo de los patrones de diseño orientados a objetos en Java
 
 ### Creational
-* **Creacional de la Clase:** Los patrones creacionales de Clases usan la herencia como un mecanismo para lograr la instanciación de la Clase. Por ejemplo el método Factoría.
-* **Creacional del objeto:** Los patrones creacionales de objetos son más escalables y dinámicos comparados de los patrones creacionales de Clases. Por ejemplo la Factoría abstracta y el patrón Singleton.
+* **Creacional de la Clase:** Los patrones creacionales de Clases usan la herencia como un mecanismo para lograr la instanciación de la Clase. Por ejemplo el Factory Method.
+* **Creacional del objeto:** Los patrones creacionales de objetos son más escalables y dinámicos comparados de los patrones creacionales de Clases. Por ejemplo Abstract Factory y el patrón Singleton.
 
 - [x] **Abstract Factory:** Provee una interfaz para la creación de familias de objetos sin especificar una clase en concreta.
 - [x] **Builder:** Separa la construcción de objetos complejos.
@@ -14,8 +14,8 @@ Catalogo de los patrones de diseño orientados a objetos en Java
 - [x] **Singleton Concurrent:**
 
 ### Structural
-* **Estructural de la Clase:** Los patrones estructurales de Clases usan la herencia para proporcionar interfaces más útiles combinando la funcionalidad de múltiples Clases. Por ejemplo el patrón Adaptador (Clase).
-* **Estructural de Objetos:** Los patrones estructurales de objetos crean objetos complejos agregando objetos individuales para construir grandes estructuras. La composición de l patrón estructural del objeto puede ser cambiado en tiempo de ejecución, el cual nos da flexibilidad adicional sobre los patrones estructurales de Clases. Por ejemplo el Adaptador (Objeto), Facade, Bridge, Composite.
+* **Estructural de la Clase:** Los patrones estructurales de Clases usan la herencia para proporcionar interfaces más útiles combinando la funcionalidad de múltiples Clases. Por ejemplo el patrón Adapter (Clase).
+* **Estructural de Objetos:** Los patrones estructurales de objetos crean objetos complejos agregando objetos individuales para construir grandes estructuras. La composición del patrón estructural del objeto puede ser cambiado en tiempo de ejecución, el cual nos da flexibilidad adicional sobre los patrones estructurales de Clases. Por ejemplo el Adaptador (Objeto), Facade, Bridge, Composite.
 
 - [x] **Adapter:** Convierte la interfaz de una clase en otro interfaz que el cliente espera.
 - [x] **Composite:** Composite sirve para construir objetos complejos a partir de otros más simples y similares entre sí, gracias a la composición recursiva y a una estructura en forma de árbol.
@@ -25,7 +25,7 @@ Catalogo de los patrones de diseño orientados a objetos en Java
 - [x] **Proxy:** Permite controlar el acceso a diferentes áreas de módulos,
 - [x] **Virtual Proxy:** 
 
-### Behavioral
+### Behavior
 * **Comportamiento de Clase:** Los patrones de comportamiento de Clases usan la herencia para distribuir el comportamiento entre Clases. Por ejemplo Interpreter.
 * **Comportamiento de Objeto:** Los patrones de comportamiento de objetos nos permite analizar los patrones de comunicación entre objetos interconectados, como objetos incluidos en un objeto complejo. Ejemplo Iterator, Observer, Visitor.
 
