@@ -1,8 +1,11 @@
-# Java Design Patterns
-Catalogo de los patrones de diseño orientados a objetos en Java
+# Patrones de diseño orientado a clases y objetos
+
+Este tipo de patrones de diseño solamente **definen la estructura y comportamiento de clases u objetos**.
+
+Hay una gran variedad de patrones de diseño orientado a clases y objetos. Los más populares y aceptados por la comunidad son del libro **Design patterns, Elements of Reusable Object- Oriented Software**, escrita por los **Gang of Four (GOF)**, en este libro se presentan 23 patrones de diseño, divididos en 3 categorías. 
 
 ### Creational
-* Se utiliza para simplificar la creación de objetos para hacerlos más adaptables a diferentes situaciones.
+* Se encarga de la Inicialización y Configuración de objetos.
 
 - [x] **Abstract Factory:** Provee una interfaz para la creación de familias de objetos sin especificar una clase en concreta.
 - [x] **Builder:** Separa la construcción de objetos complejos.
@@ -13,7 +16,7 @@ Catalogo de los patrones de diseño orientados a objetos en Java
 - [x] **Singleton Concurrent:**
 
 ### Structural
-* Se utiliza para conectar diferentes partes de un objeto, de modo que cuando una determinada parte de la estructura cambia, no es necesario que cambie toda la parte.
+* Separan la interfaz de la implementación. Se ocupan de cómo las clases y objetos se agrupan para formar estructuras más grandes.
 
 - [x] **Adapter:** Convierte la interfaz de una clase en otro interfaz que el cliente espera.
 - [x] **Composite:** Composite sirve para construir objetos complejos a partir de otros más simples y similares entre sí, gracias a la composición recursiva y a una estructura en forma de árbol.
@@ -24,7 +27,7 @@ Catalogo de los patrones de diseño orientados a objetos en Java
 - [x] **Virtual Proxy:** 
 
 ### Behavior
-* Se utiliza para las interacciones / comunicación entre objetos y crea objetos flexibles (poco acoplados).
+* Se encarga en describir objetos o clases y la comunicación entre ellos.
 
 - [x] **Chain of Responsibility:** Evita acoplar el emisor de una petición a su receptor dando a más de un objeto la posibilidad de responder a una petición. Para ello, se encadenan los receptores y pasa la petición a través de la cadena hasta que es procesada por algún objeto.
 - [x] **Command:** Permite solicitar una operación a un objeto sin conocer realmente el contenido de esta operación, ni el receptor real de la misma. Para ello se encapsula la petición como un objeto, con lo que además facilita la parametrización de los métodos.
@@ -37,3 +40,37 @@ Catalogo de los patrones de diseño orientados a objetos en Java
 - [x] **Strategy:** 
 - [x] **Template Method:** Define el esqueleto de programa de un algoritmo en un método, llamado método de plantilla, el cual difiere algunos pasos a las subclases
 - [x] **Visitor:** Representa una operación que se realiza sobre los elementos que conforman la estructura de un objeto.
+
+# Patrones de diseño orientado a subsistemas de componentes
+
+Este tipo de patrones de diseño definen estructuras de componentes o sus relaciones, por ejemplo: patrones de diseño orientado al acceso de datos, dominio o presentación, como también definen la estructura y comportamiento de clases y objetos.
+
+Generalmente, este tipo de patrones está orientado para aplicaciones empresariales. Entre los patrones más conocidos de este tipo tenemos; los patrones de diseño presentados en el libro J2EE Patterns, Best Practices and Design Strategies – Second Edition-2002 escrita por desarrolladores de  Java. En este libro, indican que existen 5 capas de arquitectura, y 15 patrones de diseño, divididos en 3 de las capas, presentación, negocios e integración. 
+
+### Patrones de diseño orientado a la capa de presentación: 
+* Estos patrones se encargan de la interfaz gráfica y de la interacción con el usuario.
+
+- [x] Intercepting Filter
+- [x] Front Controller
+- [x] View Helper
+- [x] Composite view
+- [x] Service To Worker
+- [x] Dispatcher View
+
+### Patrones de diseño orientado a la capa de negocio: 
+* Estos patrones se encargan de las reglas de negocio, validaciones de negocio y transferencia de datos. 
+
+- [x] Business Delegate
+- [x] Session Facade
+- [x] Service Locator
+- [x] Value Object Assembler
+- [x] Value List Handler
+- [x] Composity Entity
+- [x] Data Transfer Object(DTO)
+
+### Patrones orientado de integración o acceso a datos:
+* estos patrones se encarga de explotar los datos de cualquier fuente, ya sea archivos o base de datos.
+
+- [x] Service Activator
+- [x] Data Access Object(DAO)
+
